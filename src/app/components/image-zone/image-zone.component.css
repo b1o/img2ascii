@@ -1,0 +1,7 @@
+.drop-zone {
+  min-height: 200px;
+  border: 1px orange dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

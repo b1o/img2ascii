@@ -1,0 +1,9 @@
+<div [style.background]="background" class="drop-zone">
+  <h2 *ngIf="!preview">Drop image here</h2>
+  <!-- <img src="{{preview}}" *ngIf="preview"> -->
+  <pre style="background-color: black; color: white; line-height: 7px;" class="ascii">
+      {{ascii}}
+    </pre>
+</div>
+
+<canvas style="display:none" width="480" height="250" id="canvas" #canvas></canvas>
